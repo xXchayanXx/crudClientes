@@ -1,0 +1,18 @@
+En el ide debes de proporcionar el alg4 y mysql-connector-8.1.0 que estan en la misma carpeta, 
+
+la base de datos es la siguiente 
+
+create database control_clientes;
+use control_clientes;
+create table mesa(
+id_cliente int,
+nombre varchar(50),
+apellido varchar(50),
+email varchar(50),
+telefono varchar(15),
+saldo double,
+primary key(id_cliente));
+
+En la clase conexion modificas el nombre de la base de datos si es que la vas a modificar
+el user 
+y el password
